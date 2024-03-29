@@ -69,5 +69,5 @@ if __name__ == "__main__":
         time.sleep(2)
         print("[ ] Next...")
     
-    open("output.json", "w+").writelines(fetched_urls)
+    open("output.txt", "w+").writelines(fetched_urls)
     
